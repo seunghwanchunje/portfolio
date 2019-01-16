@@ -1,49 +1,68 @@
+
+a {display:block; width:100%; height:100%;}
+.upper{text-transform:uppercase;}
 .bold{font-weight:bold; font-size:30px;}
 h2 {text-align:center;}
+li{float:left;}
+
 #wrap{margin:auto; width:100%; height:100%; background-color:#fff;}
 /* headBox */
-#headBox{position:absolute; top:15px; width:100%; height:100px; background-color:#2830; z-index:200; }
-#headcontainer{width:1200px; height:100%; margin:auto;}
+#headBox{position:absolute; top:15px; width:100%; height:107px; z-index:200; }
+#logoBox{ position:absolute; top:1rem; left:50%; margin-left:-595px; float:left; width:148px; height:107px;}
+#headBox ul{margin:auto; width:711px; height:100%;}
+#headBox li{margin-right:60px; margin-top:2.5rem;}
+#headBox li:nth-last-child(1){margin-right:0; margin-top:1.5rem;}
 
-#logoBox{float:left; width:auto; height:100%; }
 
-li{float:left;}
-ul{float:left;}
-#mainmenu{float:left; width:auto; height:100%}
-#mainmenu ul {width:100%; height:100%; margin-top:35px; }
-#mainmenu li{float:left; margin-right:56px;}
-#mainmenu li:nth-child(1){margin-left:97px;}
-#mainmenu li:nth-last-child(1){margin-top:-16px;}
 
-#bg{width:100%; height:1600px;; background-image:url("../../../img/content/roomset/roomsetbg2.png"); background-repeat:no-repeat;
-    background-size:100% 100%; background-attachment:fixed;}
-
-#mainbannerwrap{position: relative;  width:100%; height:100%;  background-color:#028; }
+#mainbannerwrap{position: relative;  width:100%; height:100%; }
 .mainbanner{position: absolute; top:50%; left:50%; z-index:100; width:auto; height:auto; min-width:100%; min-height:100%;
  transform:translate(-50%,-50%); 
     background-image:url(../../../img/bg/mainbanner1.png); background-repeat:no-repeat; background-size:cover;
     background-position: center; 
 }
-#bgcolor{width:100%; height:auto; background-image:linear-gradient(180deg,#eee 94%, #fff); }
+
 /* contentBox */
-#contentBox{width:100%; height:2500px}
-.content{margin:auto; padding-top:100px; box-sizing:border-box; width:1600px; height:auto; margin-bottom:130px; }
-.context{float:left; width:600px; height:auto; text-align:center;box-sizing:border-box; }
-.content ul{width:1000px; height:auto;}
+#contentBox{width:100%; height:auto; background-color:#eee;}
+.content{margin:auto; padding-top:5rem;; padding-bottom:5rem; box-sizing:border-box; width:1600px; height:auto; margin-bottom:5rem;}
+.context{float:left; width:600px; height:100%; text-align:center;box-sizing:border-box;}
+.content ul{float:left; width:1000px; height:auto;}
 .content .context:nth-child(2n){text-align:left;}
 
-.con1 li{ height:100%;}
-.con1 li:nth-child(1){margin-right:23px;}
+
+.newcon li:nth-child(1){margin-right:23px;}
 .text1 {padding-top:90px;}
 
 
-
-.con2 li{margin-right:5px;}
+.stylecon li{margin-right:5px;}
 .text2 {padding-top:80px;}
 
 
-.con3 {margin-bottom:200px; background-image:linear-gradient(180deg, #eee 80%, #fff);}
-.con3 ul{width:1000px;}
-.con3 li{width:25%; float:right;}
+.mattresscon li{width:25%; float:right;}
 .text3 {padding-top:50px;}
 
+#familybg{width:100%; height:1000px; margin-top:1rem; background-image:url("../../../img/content/roomset/roomsetbg2.png"); background-repeat:no-repeat;
+    background-size:100% 100%;}
+
+    
+
+
+
+#familywrap{width:100%; height:auto; padding-top:120px; box-sizing:border-box;}
+
+#familywrap ul{margin:auto; width:950px; height:780px; 
+    box-shadow:-5rem -3rem 10rem -1rem #000; }
+
+#familywrap a{display:block; width:100%; height:100%;  padding-right:2px; box-sizing:border-box;}
+#familywrap li{width: 50%; height: 50%; box-sizing:border-box;}
+#familywrap li:nth-child(1){background-image:url("../../../img/family_site/avenue.png"); background-repeat:no-repeat; background-size: cover;
+     padding-right:10px; padding-bottom:10px;}
+#familywrap li:nth-child(2){background-image:url("../../../img/family_site/heritz.png"); background-repeat:no-repeat; background-size: cover;
+padding-bottom:10px;}
+#familywrap li:nth-child(3){background-image:url("../../../img/family_site/stresless.png"); background-repeat:no-repeat; background-size: cover;
+    padding-right:10px; box-sizing:border-box;}
+#familywrap li:nth-child(4){background-image:url("../../../img/family_site/rio.png"); background-repeat:no-repeat; background-size: cover;}
+    
+/* footer */
+#footBox{width:100%; height:10rem; background-color:#3e3e3e;}
+#footerwrap {margin:auto; padding-top:1rem; box-sizing:border-box; width:950px; height:auto; ; min-height:100px;}
