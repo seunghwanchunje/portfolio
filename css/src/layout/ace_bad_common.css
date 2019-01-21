@@ -1,9 +1,10 @@
 
-
+.line{width:50vw; height:1px; background-color:#000;}
+.line:nth-child(1){float:right;}
 .upper{text-transform:uppercase;}
 .bold{font-weight:bold; font-size:30px;}
-h2 {text-align:center;}
-li{float:left;}
+h2 {text-align:center; margin-bottom:1rem;}
+li{float:left; }
 .footinfo{color:#fff; font-size:14px; line-height:0px; font-weight:300;}
 .t{margin-left:63px; }
 .f{margin-left:21px;}
@@ -14,64 +15,68 @@ a{display:block; width:100%; height:100%; }
 
 #wrap{margin:auto; width:100%; height:100%; background-color:#fff;}
 /* headBox */
-#headBox{position:absolute; top:15px; width:100%; height:107px; z-index:200; }
+#headBox_pc{position:absolute; top:15px; width:100%; height:107px; z-index:200; }
 #logoBox{ position:absolute; top:1rem; left:50%; margin-left:-595px; float:left; width:148px; height:107px;}
-#headBox ul{margin:auto; width:711px; height:100%;}
-#headBox li{margin-right:60px; margin-top:2.5rem;}
-#headBox li:nth-last-child(1){margin-right:0; margin-top:1.5rem;}
+#headBox_pc ul{margin:auto; width:711px; height:100%;}
+#headBox_pc li{margin-right:60px; margin-top:2.5rem;}
+#headBox_pc li:nth-last-child(1){margin-right:0; margin-top:1.5rem;}
 
 
 
-#mainbannerwrap{position: relative;  width:100%; height:100%; }
-.mainbanner{position: absolute; top:50%; left:50%; z-index:100; width:auto; height:auto; min-width:100%; min-height:100%;
- transform:translate(-50%,-50%); 
-    background-image:url(../../../img/bg/mainbanner1.png); background-repeat:no-repeat; background-size:cover;
-    background-position: center; 
-}
+
+
+
+
+.mainbanner{width:100%; height:68.6vw; max-height:100vh; 
+    background-image:url("../../../img/bg/mainbanner1.png"); background-repeat:no-repeat; background-size:cover; }
 
 /* contentBox */
-#contentBox{width:auto; height:auto; background-image:linear-gradient(130deg,#fff 1%, #d8bea8 50%,#eee 70%,#fff 100%);}
-.content{margin:auto; padding-top:5rem; padding-bottom:5rem; box-sizing:border-box; width:90%; max-width:1600px; height:auto; margin-bottom:5rem;}
-.context{float:left; width:37.5%; max-width:600px; height:100%; text-align:center; box-sizing:border-box;}
-.content ul{float:left; width:62.5%; height:auto; max-width:1000px}
-.content .context:nth-child(2n){text-align:left;}
+#contentBox{width:auto; height:auto;  background-image:linear-gradient(130deg,#fff 1%, #d8bea8 50%,#eee 70%,#fff 100%);}
+
+.content{margin:auto; width:95%; max-width:1800px; height:auto; padding-top:10rem; padding-bottom:10rem; box-sizing:border-box;}
+
+    .context{float:left; width:30vw; height:100%; text-align:center; box-sizing:border-box; }
+    .content ul{float:left; width:60vw;}
+  
+    
 .content li{background-repeat:no-repeat; background-size:cover;}
 
-.newcon li{width:49%; height:17vw;}
-.newcon li:nth-child(1){margin-right:0.5rem; background-image:url("../../../img/content/new/newproduct1.jpg"); }
+.newcon ul{height:17vw; max-width:977px; max-height:281px; min-width:392px; min-height:111px; float:right; }
+.newcon li{width:50%; height:100%;}
+.newcon li:nth-child(1){background-image:url("../../../img/content/new/newproduct1.jpg"); }
 .newcon li:nth-child(2){background-image:url("../../../img/content/new/newproduct2.jpg"); }
 
-    
-
-.stylecon li{width:24%; height:14vw; margin-right:0.3rem;}
+.stylecon .context{float:right;}
+.stylecon ul{height:16.1vw; max-width:780px; max-height:209px; min-width:392px; min-height:105px;}
+.stylecon li{width:25%; height:100%;}
 .stylecon li:nth-child(1){background-image:url("../../../img/content/style/duo.jpg");       }
 .stylecon li:nth-child(2){background-image:url("../../../img/content/style/romance.jpg");   }
 .stylecon li:nth-child(3){background-image:url("../../../img/content/style/single.jpg");    }
 .stylecon li:nth-child(4){background-image:url("../../../img/content/style/theclassic.jpg"); }
 
-
-.mattresscon li{width:24%; height:9vw; min-height:110px; min-width:180px; margin-right:0.3rem;}
-.mattresscon li:nth-child(1){background-image:url("../../../img/content/mattress/a.png")}
-.mattresscon li:nth-child(2){background-image:url("../../../img/content/mattress/b.png")}
-.mattresscon li:nth-child(3){background-image:url("../../../img/content/mattress/c.png")}
-.mattresscon li:nth-child(4){background-image:url("../../../img/content/mattress/d.png")}
-
-
+.mattresscon ul{height:10vw; max-width:960px; max-height:160px; min-width:392px; min-height:65px; float:right;}
+.mattresscon li{width:25%; height:100%;}
+.mattresscon li:nth-child(1){background-image:url("../../../img/content/mattress/a.png");}
+.mattresscon li:nth-child(2){background-image:url("../../../img/content/mattress/b.png");}
+.mattresscon li:nth-child(3){background-image:url("../../../img/content/mattress/c.png");}
+.mattresscon li:nth-child(4){background-image:url("../../../img/content/mattress/d.png");}
 
 
 
 
-#familybg{width:100%; height:80vw; margin-top:1rem; background-image:url("../../../img/content/roomset/roomsetbg2.png"); background-repeat:no-repeat;
-    background-size:100% 100%; background-position:center center;}
 
-#familywrap{width:100%; max-width:1600px; height:auto; padding-top:120px; box-sizing:border-box;}
 
-#familywrap ul{margin:auto; width:80%; height:auto;  box-shadow:-5rem -3rem 10rem -1rem #000; }
-#familywrap li{width: 50%; height: 26vw;}
-#familywrap li:nth-child(1){background-image:url("../../../img/family_site/avenue.png"); background-repeat:no-repeat; background-size: cover;}
-#familywrap li:nth-child(2){background-image:url("../../../img/family_site/heritz.png"); background-repeat:no-repeat; background-size: cover;}
-#familywrap li:nth-child(3){background-image:url("../../../img/family_site/stresless.png"); background-repeat:no-repeat; background-size: cover;}
-#familywrap li:nth-child(4){background-image:url("../../../img/family_site/rio.png"); background-repeat:no-repeat; background-size: cover;}
+#familybox{width:100%; height:52.89vw; background-image:url("../../../img/bg/familybg.png"); background-repeat:no-repeat;
+    background-size:cover; background-attachment: scroll; padding-top:4.7vw; box-sizing: border-box;}
+
+#familywrap{}
+
+#familywrap ul{margin:auto; width:53.3vw; height:43.3vw; max-width:950px; max-height:774px; box-shadow:0rem 0rem 6rem 2rem #000; }
+#familywrap li{width:50%; height:50%;  background-repeat:no-repeat; background-size: cover;}
+#familywrap li:nth-child(1){background-image:url("../../../img/family_site/avenue.png");    }
+#familywrap li:nth-child(2){background-image:url("../../../img/family_site/heritz.png");    }
+#familywrap li:nth-child(3){background-image:url("../../../img/family_site/stresless.png"); }
+#familywrap li:nth-child(4){background-image:url("../../../img/family_site/rio.png");       }
     
 /* footer */
 #footBox{width:100%; height:10rem; background-color:#3e3e3e;}

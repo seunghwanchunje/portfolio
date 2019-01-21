@@ -1,8 +1,10 @@
-@media screen and (min-width: 769px) and (max-width:1366px){
+@media screen and (min-width: 991px) and (max-width:1250px){
 	/*headBox*/
-
+#logoBox{left:0; margin-left:1rem;}
+#headBox_pc ul{margin-left:13rem; width:90%;}
+#headBox_pc li{margin-right:30px;}
 	/*end headBox*/
-
+	
 
 
 

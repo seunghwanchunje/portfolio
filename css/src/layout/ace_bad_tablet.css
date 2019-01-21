@@ -1,8 +1,16 @@
  /*ACE_BAD_tablet.css*/
-  @media screen and (min-width:481px) and (max-width:1204px){
-    
-    
+  @media screen and (min-width:481px) and (max-width:990px){
+ 
+
+    #logoBox{left:0; margin-left:1rem;}
+    #headBox_pc ul{margin-left:13rem; width:90%;}
+    #headBox_pc li{margin-right:30px;}
 
 
+
+/* footer */
+#footBox{height:13rem;}
+#footwrap ul{left:2rem; top:8rem;}
   	
 }
+
